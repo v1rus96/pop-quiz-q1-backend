@@ -1,0 +1,20 @@
+{
+  "name": "pop-quiz-q1-backend",
+  "version": "1.0.0",
+  "description": "Pop Quiz Backend Question 1 (RegOv Technologies)",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=8081 node server.js",
+    "test": "jest"
+  },
+  "author": "Firuz Akhmadov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jest": "^29.6.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.2"
+  }
+}
